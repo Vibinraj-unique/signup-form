@@ -1,0 +1,62 @@
+.login{
+    
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFFQRL8DQfyGsKhRHWqhK9aIE2cpFjcJfekg&s);
+
+}
+form {
+    background: rgba(160, 17, 17, 0.151);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 8px rgba(106,90,205,0.3);
+    max-width: 400px;
+    margin: auto;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwIViXzr8IpPKK5ASHcPXyLdfo5yHtNjk9Q&s);
+  }
+ label {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    
+ }
+  .Floating-Label {
+    position : relative;
+    margin-bottom: 20px;
+  }
+  .Floating-Label input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #98e0ec;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }   
+.Floating-Label label{
+    
+    left: 12px;
+  top: 12px;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  color: #000000;
+  font-size: 16px;
+}
+button{
+    background: #4caf50;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    width: 100%;
+    padding: 10px 20px;
+
+}
+button:hover{
+    transition: all in ease 0.3s;
+    background: none;
+    
+}
